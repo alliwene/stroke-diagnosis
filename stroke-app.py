@@ -91,7 +91,7 @@ def main():
             st.write('Patient at higher risk of Stroke with confidence {:.2f}'.format(percent))
             st.write('Time to Visit your Doctor!')
         else:
-            st.write('Patient at lower risk of Stroke with confidence {:.2f}'.format(percent))
+            st.write('Patient at lower risk of Stroke with confidence {:.2f}%'.format(percent))
             st.write('Time to visit your doctor!')
         st.write('## This is not a replacement for proper medical advice')
     else:
